@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(209, 243, 232);
+}
+
+h1 {
+  color: rgb(2, 77, 58);
+  text-align: center;
+  font-size: 46px;
+  text-decoration: underline;
+  /* text-decoration: underline dotted red 3px; */
+}
+
+p {
+  text-align: center;
+  color: #445d48;
+  /* background-color: aliceblue; */
+}
+
+/* Margin - Padding */

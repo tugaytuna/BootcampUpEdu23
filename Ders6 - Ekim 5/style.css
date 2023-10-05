@@ -11,9 +11,36 @@ h1 {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   color: #445d48;
   /* background-color: aliceblue; */
 }
 
+.misyon {
+  text-align: center;
+  color: red;
+}
+
+.techlogo {
+  height: 100px;
+  width: 100px;
+
+  /* margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-right: 0px; */
+
+  margin: 20px 0px 8px 10px;
+
+  /* margin: 10px 20px; */
+
+  border-radius: 50%;
+}
+
+#logo {
+  height: 200px;
+  width: 200px;
+}
+
+/* Class - ID */
 /* Margin - Padding */

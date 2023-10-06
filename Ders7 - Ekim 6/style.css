@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(209, 243, 232);
+}
+
+h1 {
+  color: rgb(2, 77, 58);
+  text-align: center;
+  font-size: 46px;
+  text-decoration: underline;
+
+  margin-bottom: 0px;
+  /* text-decoration: underline dotted red 3px; */
+}
+
+.button1 {
+  background-color: #445d48;
+  color: white;
+
+  margin: 10px 0px 10px 20px;
+
+  padding: 8px 20px;
+
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0px; */
+
+  border-radius: 10px 0px;
+
+  border-color: white;
+  border-style: solid;
+}
+
+.buttondiv {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  color: #445d48;
+  /* background-color: aliceblue; */
+}
+
+.misyon {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.techlogo {
+  height: 100px;
+  width: 100px;
+
+  /* margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-right: 0px; */
+
+  margin: 20px 0px 8px 20px;
+
+  /* margin: 10px 20px; */
+
+  border-radius: 10%;
+
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: black; */
+
+  border: 1px solid black;
+}
+
+.techlogodiv {
+  text-align: center;
+}
+
+#logo {
+  height: 200px;
+  width: 200px;
+}
+
+.altbaslik {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 0px;
+  color: rgb(2, 77, 58);
+  margin-left: 210px;
+}
+
+.egitimler-baslik {
+  border-left: 8px solid green;
+}
+
+/* Class - ID */
+/* Margin - Padding */

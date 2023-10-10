@@ -1,0 +1,72 @@
+body {
+  background-color: aliceblue;
+}
+
+#anabaslik {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+#kurulus {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+#misyon {
+  text-align: center;
+}
+
+.img1 {
+  height: 250px;
+  width: 250px;
+}
+
+.yazi1 {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
+footer h4 {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+footer a {
+  color: white;
+  display: block;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+nav {
+  margin: 20px;
+  text-align: center;
+}
+
+nav a {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+
+  /* display: inline-block;
+  width: 100px;
+  height: 30px; */
+
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  background-color: rgb(88, 87, 87);
+  padding: 12px 22px;
+  border: 3px solid white;
+}

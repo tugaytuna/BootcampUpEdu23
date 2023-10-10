@@ -46,13 +46,18 @@ footer a {
 }
 
 nav {
-  margin: 20px;
+  margin: 30px;
   text-align: center;
 }
 
 nav a {
   background-color: black;
   color: white;
+
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: white; */
+
   border: 1px solid white;
 
   /* display: inline-block;
@@ -69,4 +74,54 @@ nav a:hover {
   background-color: rgb(88, 87, 87);
   padding: 12px 22px;
   border: 3px solid white;
+}
+
+.bolumBaslik {
+  text-align: center;
+}
+
+.bolumler {
+  text-align: center;
+  padding: 0px;
+}
+
+.bolumler li {
+  list-style-type: none;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.resimler {
+  text-align: center;
+}
+
+.resimler img {
+  height: 200px;
+  width: auto;
+
+  border: 1px solid black;
+}
+
+.formIletisim {
+  text-align: center;
+}
+
+.formIletisim input {
+  margin: 5px;
+}
+
+.formIletisim button {
+  margin: 5px;
+  width: 100px;
+}
+
+.formIletisim h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.formIletisim h6 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 0px;
 }

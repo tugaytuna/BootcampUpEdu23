@@ -1,0 +1,34 @@
+body {
+  background-color: azure;
+}
+
+#anaBaslik {
+  text-align: center;
+  /* margin-left: 320px; */
+  font-size: 40px;
+}
+
+.div1 {
+  /* flex-direction: column; */
+
+  display: flex;
+
+  text-align: center;
+  margin: 10px;
+
+  /* column-gap: 100px; */
+}
+
+.div1 div img {
+  height: 300px;
+  /* width: 1200px; */
+}
+
+.gorsel {
+  width: 50%;
+  /* text-align: center; */
+}
+
+.yazi {
+  width: 50%;
+}

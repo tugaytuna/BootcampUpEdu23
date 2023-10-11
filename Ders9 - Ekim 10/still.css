@@ -106,7 +106,8 @@ nav a:hover {
   text-align: center;
 }
 
-.formIletisim input {
+.formIletisim input,
+textarea {
   margin: 5px;
 }
 
@@ -116,7 +117,7 @@ nav a:hover {
 }
 
 .formIletisim h5 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 

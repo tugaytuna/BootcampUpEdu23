@@ -116,13 +116,26 @@ textarea {
   width: 100px;
 }
 
-.formIletisim h5 {
+.contactsDiv h5 {
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-.formIletisim h6 {
+.contactsDiv h6 {
   font-size: 16px;
   font-weight: normal;
   margin-top: 0px;
+}
+
+.contactsDiv {
+  text-align: center;
+  display: flex;
+}
+
+.telefondiv {
+  width: 50%;
+}
+
+.adresdiv {
+  width: 50%;
 }

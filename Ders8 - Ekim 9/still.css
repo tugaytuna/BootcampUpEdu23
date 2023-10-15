@@ -29,20 +29,19 @@ body {
 
 footer {
   background-color: black;
+  text-align: center;
+  color: white;
 }
 
 footer h4 {
-  color: white;
-  text-align: center;
   padding-top: 5px;
   font-size: 20px;
 }
 
 footer a {
-  color: white;
   display: block;
-  text-align: center;
   padding-bottom: 8px;
+  color: white;
 }
 
 nav {
@@ -62,7 +61,7 @@ nav a {
   padding: 10px 20px;
   border-radius: 10px;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 nav a:hover {

@@ -1,4 +1,4 @@
-var isim = "tugay";
+var isim = 'tugay';
 var yas = 18;
 
 let isim2 = "esma";

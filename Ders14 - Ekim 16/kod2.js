@@ -15,4 +15,7 @@ function profilCheck(isim, yas) {
 }
 
 profilCheck("esma", 22);
+
 profilCheck("tugay", 30);
+
+profilCheck("emir", 15);

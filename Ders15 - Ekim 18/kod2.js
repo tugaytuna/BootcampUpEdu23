@@ -24,7 +24,7 @@ function fullnameGenerator(name, surname) {
   return fullname;
 }
 
-let fullname1 = fullnameGenerator("tugay", "tuna");
+let fullname1 = fullnameGenerator(name, surname);
 let fullname2 = fullnameGenerator("esma", "sağlam");
 
 console.log(fullname1);

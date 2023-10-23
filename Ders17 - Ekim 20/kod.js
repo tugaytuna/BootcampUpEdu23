@@ -29,16 +29,16 @@ function buttonClicked() {
   let title = titles(name);
   baslik.innerText = "Hoşgeldiniz " + name + " " + title;
 
-  //   if (name == "ESMA") {
-  //     baslik.className = "titleLogin";
-  //   } else {
-  //     baslik.className = "";
-  //   }
+  if (name == "ESMA") {
+    baslik.className = "titleLogin";
+  } else {
+    baslik.className = "";
+  }
 
-  baslik.className = name == "ESMA" ? "titleLogin" : "";
+  // baslik.className = name == "ESMA" ? "titleLogin" : "";
 
-  //   baslik.setAttribute("style", "color:red");
-  //   baslik.style = "color: red";
+  // baslik.setAttribute("style", "color:red");
+  // baslik.style = "color: red; text-align:center";
 }
 
 // console.log(input1);

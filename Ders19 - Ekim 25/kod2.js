@@ -15,13 +15,14 @@ for (let i = 0; i < ciftSayilar.length; i++) {
 // console.log(ciftSayilar);
 
 let name = "tugay";
-let crypName = "tugay";
+let cryptName = "tugay";
 
 for (let i = 0; i < name.length; i++) {
-  crypName[i] = "j";
-
-  console.log(crypName);
+  cryptName[i] = "j";
 }
+
+// let tesst1 = cryptName.replace("tu", "ja");
+// console.log(tesst1);
 
 function cyrpt(ch) {
   switch (ch) {

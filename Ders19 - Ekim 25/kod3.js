@@ -17,7 +17,7 @@ let ogrenci2 = {
 };
 
 console.log(ogrenci1.name);
-console.log(ogrenci2["name"]);
+console.log(ogrenci1["name"]);
 
 let ogrenciler = [
   {
@@ -40,4 +40,4 @@ let ogrenciler = [
 
 console.log(ogrenciler);
 
-console.log(ogrenciler[0].name);
+console.log(ogrenciler[1].name);

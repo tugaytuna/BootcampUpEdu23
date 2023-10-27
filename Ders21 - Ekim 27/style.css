@@ -1,0 +1,11 @@
+body {
+  background-color: aliceblue;
+}
+
+#usernameInput {
+  text-align: center;
+}
+
+#passwordInput {
+  text-align: center;
+}

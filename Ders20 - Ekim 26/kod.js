@@ -5,7 +5,7 @@ let dizi1 = ["tugay", "esma", "emir", "tolga", "ahmet"];
 
 // console.log(dizi1);
 
-dizi1.push("esma");
+// dizi1.push("esma");
 
 function guncelle() {
   baslik.innerText = "Hoşgeldiniz";

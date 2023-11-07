@@ -62,7 +62,7 @@ let label1 = document.getElementById("label1");
 function sorgula() {
   for (let i = 0; i < users.length; i++) {
     if (users[i].username == inputText1.value) {
-      foundUser(i);
+      foundUser(users[i].id);
       return;
     } else {
       label1.innerText = "Kullanıcı bulunamadı...";

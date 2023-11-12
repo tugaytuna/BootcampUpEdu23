@@ -5,3 +5,8 @@
   font-size: 22px;
   margin: 10px 0px;
 }
+
+hr {
+  border-color: red;
+  border-width: 1px;
+}

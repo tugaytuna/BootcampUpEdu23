@@ -52,44 +52,22 @@ let users = [
     isAdmin: false,
     age: 30,
     profilePic: "images/tugay.jpg",
-    favorites: ["CSS", "Python", "Java"],
+    favorites: ["CSS", "GO", "Java"],
   },
 ];
 
-let inputText1 = document.getElementById("inputText1");
+// let inputText1 = document.getElementById("inputText1");
 let inputText2 = document.getElementById("inputText2");
 let label1 = document.getElementById("label1");
 
 function sorgula() {
   for (let i = 0; i < users.length; i++) {
-    if (users[i].username == inputText1.value) {
-      foundUser(users[i].id);
-      return;
-    } else {
-      label1.innerText = "Kullanıcı bulunamadı...";
-      label1.style = "color: red";
-    }
+    users[i].favorites.filter((x) => {
+      if (inputText2.value == x) {
+        // console.log(users[i].fullname);
+        label1.innerText += users[i].fullname;
+        label1.innerText += " ";
+      }
+    });
   }
 }
-
-function foundUser(id) {
-  for (let i = 0; i < users[id].favorites.length; i++) {
-    // console.log(users[id].favorites[i]);
-
-    if (users[id].favorites[i] == inputText2.value) {
-      label1.innerText = "Dil Seçili";
-      label1.style = "color: green";
-      return;
-    } else {
-      label1.innerText = "Dil bulunamadı!";
-      label1.style = "color: red";
-    }
-  }
-
-  // label1.innerText = users[id].id;
-  // label1.style = "color: black";
-}
-
-// for (let i = 0; i < users.length; i++) {
-//   console.log(users[i]);
-// }

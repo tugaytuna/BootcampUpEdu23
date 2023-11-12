@@ -1,0 +1,15 @@
+.btnKaydet {
+  padding: 10px 15px;
+  background-color: #f1eb90;
+  border: 1px solid #f3b664;
+  border-radius: 10px;
+}
+
+.btnMain {
+  margin: 5px;
+}
+
+.btnKaydet:hover {
+  background-color: #f0e76e;
+  border: 1px solid #f3b664;
+}

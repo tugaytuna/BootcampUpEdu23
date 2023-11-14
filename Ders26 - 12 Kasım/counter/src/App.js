@@ -4,6 +4,12 @@ import { useState } from "react";
 function App() {
   const [count1, setCount1] = useState(0);
 
+  const [age, setAge] = useState(18);
+  const [name, setName] = useState("tugay");
+
+  // name = "tolga"; // YANLIŞ
+  // setName("tolga");
+
   function increase() {
     setCount1(count1 + 1);
   }

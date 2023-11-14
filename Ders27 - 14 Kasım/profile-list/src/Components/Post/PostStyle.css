@@ -1,0 +1,37 @@
+.postMain {
+  background-color: aliceblue;
+  display: inline-block;
+  padding: 15px;
+
+  border-radius: 10px;
+  border: 1px solid black;
+
+  margin: 10px;
+}
+
+.postMain:hover {
+  background-color: rgb(197, 224, 247);
+}
+
+.postName {
+  font-size: 26px;
+}
+
+.postEmail {
+  /* font-weight: normal; */
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.postAge {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 16px;
+}
+.postNumber {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 16px;
+}

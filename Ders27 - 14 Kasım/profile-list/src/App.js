@@ -4,6 +4,11 @@ import { useState } from "react";
 import Post from "./Components/Post/Post";
 
 function App() {
+  // const [name, setName] = useState("tugay");
+  // setName("tolga");
+  // // name = "tolga"; // YANLIŞ
+  // console.log(name);
+
   const [users, setUsers] = useState([
     {
       name: "Tugay Tuna",

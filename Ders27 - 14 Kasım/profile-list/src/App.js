@@ -28,6 +28,18 @@ function App() {
       email: "emir@outlook.com",
       phoneNumber: "0534 354 35 35",
     },
+    {
+      name: "Tolga Tuna",
+      age: 25,
+      email: "tolga@outlook.com",
+      phoneNumber: "0534 357 77 77",
+    },
+    {
+      name: "Ahmet Tuna",
+      age: 30,
+      email: "ahmet@outlook.com",
+      phoneNumber: "0534 358 88 88",
+    },
   ]);
 
   // MAP
@@ -46,7 +58,18 @@ function App() {
       </p>
       <hr />
 
-      <Post
+      {users.map((item) => {
+        return (
+          <Post
+            name={item.name}
+            age={item.age}
+            email={item.email}
+            phoneNumber={item.phoneNumber}
+          ></Post>
+        );
+      })}
+
+      {/* <Post
         name={users[0].name}
         age={users[0].age}
         email={users[0].email}
@@ -65,7 +88,7 @@ function App() {
         age={users[2].age}
         email={users[2].email}
         phoneNumber={users[2].phoneNumber}
-      ></Post>
+      ></Post> */}
     </div>
   );
 }

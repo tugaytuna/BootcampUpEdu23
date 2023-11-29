@@ -11,30 +11,35 @@ function App() {
 
   const [users, setUsers] = useState([
     {
+      id: 1,
       name: "Tugay Tuna",
       age: 18,
       email: "tugay@outlook.com",
       phoneNumber: "0544 444 44 44",
     },
     {
+      id: 2,
       name: "Esma Sağlam",
       age: 22,
       email: "esma@outlook.com",
       phoneNumber: "0555 554 45 46",
     },
     {
+      id: 3,
       name: "Emir Kabadayı",
       age: 22,
       email: "emir@outlook.com",
       phoneNumber: "0534 354 35 35",
     },
     {
+      id: 4,
       name: "Tolga Tuna",
       age: 25,
       email: "tolga@outlook.com",
       phoneNumber: "0534 357 77 77",
     },
     {
+      id: 5,
       name: "Ahmet Tuna",
       age: 30,
       email: "ahmet@outlook.com",
@@ -61,6 +66,7 @@ function App() {
       {users.map((item) => {
         return (
           <Post
+            key={item.id}
             name={item.name}
             age={item.age}
             email={item.email}

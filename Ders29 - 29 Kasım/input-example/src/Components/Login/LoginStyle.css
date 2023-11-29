@@ -1,0 +1,14 @@
+.LoginDiv {
+  padding: 10px;
+  background-color: rgb(226, 250, 181);
+}
+
+.input1 {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.button1 {
+  border-color: azure;
+  padding: 2px 15px;
+}

@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.kirmizi {
+  background-color: red;
+  color: white;
+}
+
+.yesil {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+}

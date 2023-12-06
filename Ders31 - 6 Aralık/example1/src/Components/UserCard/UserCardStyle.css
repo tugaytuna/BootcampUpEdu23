@@ -1,0 +1,12 @@
+.UserCardMain {
+  margin: 10px;
+  background-color: azure;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.UserCardMain:hover {
+  background-color: rgb(170, 245, 245);
+}

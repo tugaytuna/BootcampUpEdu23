@@ -1,0 +1,11 @@
+.LoginMainDiv {
+  background-color: rgb(188, 238, 142);
+  margin: 0px 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input1 {
+  margin-right: 10px;
+  text-align: center;
+}

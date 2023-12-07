@@ -1,0 +1,42 @@
+.UserCardMain {
+  margin: 10px;
+  background-color: azure;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.UserCardMain:hover {
+  background-color: rgb(170, 245, 245);
+}
+
+.userCardFullname {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0px 20px 0px;
+}
+
+.userCardEmail {
+  margin: 10px 0px;
+  font-weight: normal;
+}
+
+.userCardPhoneNumber {
+  margin: 10px 0px;
+  font-weight: normal;
+}
+
+.buttonToggle {
+  background-color: aliceblue;
+  border: 1px solid rgb(248, 182, 182);
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.profilePic1 {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 110px;
+  width: 110px;
+}

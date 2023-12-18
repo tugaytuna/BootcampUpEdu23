@@ -1,0 +1,36 @@
+.mainUserDiv {
+  background-color: burlywood;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.mainUserDiv:hover {
+  background-color: rgb(133, 98, 53);
+}
+
+h4 {
+  margin: 0px;
+}
+
+.userFullName {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.userEmail {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.userAddress {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.userComp {
+  font-weight: normal;
+  font-size: 12px;
+}

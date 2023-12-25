@@ -1,0 +1,27 @@
+.LayoutMainDiv {
+}
+
+nav {
+  margin: 20px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 8px 15px;
+  margin: 5px;
+  background-color: rgb(93, 207, 93);
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+}
+
+.baslik1 {
+  text-align: center;
+  font-size: 85px;
+}

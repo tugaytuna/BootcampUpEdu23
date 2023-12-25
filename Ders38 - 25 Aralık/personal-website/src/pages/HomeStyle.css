@@ -1,0 +1,27 @@
+p {
+  text-align: center;
+}
+
+.homeServices {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.homeServices div {
+  display: inline-block;
+  width: 33%;
+}
+
+.homeServices div img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.homeServices div img:hover {
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.aboutme-main-div {
+  margin: 40px 0px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.aboutme-main-div div {
+  display: inline-block;
+  width: 50%;
+}
+
+.aboutme-main-div img {
+  height: 400px;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.aboutme-main-div p {
+  font-size: 26px;
+}
+
+.aboutme-main-div label {
+  font-size: 40px;
+  font-weight: bold;
+}

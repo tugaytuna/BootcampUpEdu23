@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
+import Contact from "./pages/Contact";
+import AboutMe from "./pages/AboutMe";
 
 export default function App() {
   return (
@@ -10,6 +12,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<AboutMe />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.searchCoctail {
+  text-align: center;
+  margin: 10px;
+  padding: 5px 8px;
+}
+
+.searchButton {
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.searchButton:hover {
+  background-color: rgb(94, 92, 92);
+}

@@ -1,0 +1,33 @@
+.CoctailMainDiv {
+  /* background-color: antiquewhite; */
+  background: linear-gradient(
+    90deg,
+    rgba(79, 55, 145, 1) 0%,
+    rgba(84, 84, 187, 1) 47%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px 20px;
+  display: inline-table;
+  border-radius: 10px;
+  margin: 15px;
+  height: 420px;
+}
+
+.CoctailTitle1 {
+  font-size: 24px;
+  margin: 0px 0px 10px 0px;
+  color: white;
+  width: 120px;
+}
+
+.CoctailImg1 {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.CoctailInto {
+  color: white;
+  width: 120px;
+  /* height: 160; */
+}

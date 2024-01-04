@@ -1,10 +1,12 @@
 import { useState } from "react";
 import axios from "axios";
 import "./App.css";
+import Coctail from "./components/Coctail";
 
 function App() {
   const [allCoctails, setAllCoctails] = useState([]);
   const [inputSearch, setInputSearch] = useState("");
+  const [alcoholic, setAlcoholic] = useState(false);
 
   const API_ListAllLetter =
     "https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c";
@@ -38,14 +40,36 @@ function App() {
         Search
       </button>
 
+      <br />
+
+      <button
+        className={alcoholic ? "alcoButton checked" : "alcoButton"}
+        onClick={() => {
+          setAlcoholic(true);
+        }}
+      >
+        Alcoholic
+      </button>
+      <button
+        className={alcoholic ? "alcoButton" : "alcoButton checked"}
+        onClick={() => {
+          setAlcoholic(false);
+        }}
+      >
+        Non-Alcoholic
+      </button>
+
+      <br />
+
       {allCoctails.map((item) => {
-        if (item.strAlcoholic == "Alcoholic") {
+        let alco = alcoholic ? "Alcoholic" : "Non alcoholic";
+        if (item.strAlcoholic == alco) {
           return (
-            <div>
-              <h6>{item.strDrink}</h6>
-              <label htmlFor="">{item.strAlcoholic}</label>
-              <img height={100} width={100} src={item.strDrinkThumb} alt="" />
-            </div>
+            <Coctail
+              coctailTitle={item.strDrink}
+              coctailImage={item.strDrinkThumb}
+              coctailInto={item.strInstructions}
+            ></Coctail>
           );
         }
       })}

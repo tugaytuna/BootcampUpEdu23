@@ -1,17 +1,31 @@
 .taskMain {
   background-color: aquamarine;
+  border: 1px solid green;
+  border-radius: 10px;
   margin: 5px 20px 10px 20px;
   text-align: left;
+  padding: 5px;
 }
 
 .taskCheckbox1 {
   height: 40px;
   width: 40px;
 
-  margin: 5px 15px 5px 30%;
+  margin: 5px 15px 5px 2px;
 }
 
 .taskLabel1 {
   font-size: 32px;
   vertical-align: top;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.doneMain {
+  border: 2px solid black;
+  background-color: rgb(109, 156, 141);
+  opacity: 0.5;
 }

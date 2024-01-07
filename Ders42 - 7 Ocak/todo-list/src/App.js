@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Task from "./components/Task";
 
@@ -12,7 +12,7 @@ function App() {
     {
       id: 2,
       task: "Practise Javascript",
-      done: true,
+      done: false,
     },
     {
       id: 3,
@@ -21,13 +21,51 @@ function App() {
     },
   ]);
   const [inputTask, setInputTask] = useState("");
+  const [completedTaskCount, setCompletedTaskCount] = useState(0);
+
+  useEffect(() => {
+    let counter = 0;
+    tasks.map((item) => {
+      if (item.done) {
+        counter++;
+      }
+    });
+
+    setCompletedTaskCount(counter);
+  }, [tasks]);
 
   function addTask() {
-    let taskTemp = { id: tasks.length + 1, task: inputTask, done: false };
+    if (inputTask != "") {
+      let taskTemp = { id: tasks.length + 1, task: inputTask, done: false };
+      setTasks([...tasks, taskTemp]);
+      setInputTask("");
+      alert("Task Added!");
+    } else {
+      alert("You can't add blank task!");
+    }
+  }
 
-    setTasks([...tasks, taskTemp]);
+  function taskDone(taskId, checked) {
+    // setTasks((prev) =>
+    //   prev.map((item) =>
+    //     item.id == taskId ? { ...item, ["done"]: checked } : item
+    //   )
+    // );
 
-    setInputTask("");
+    let tempTask = [];
+    tasks.map((item) => {
+      if (item.id == taskId) {
+        let temp2 = item;
+        temp2.done = checked;
+        tempTask.push(temp2);
+      } else {
+        tempTask.push(item);
+      }
+    });
+
+    setTasks(tempTask);
+
+    // console.log("task done", taskId, checked);
   }
 
   return (
@@ -41,11 +79,14 @@ function App() {
             done={item.done}
             task={item.task}
             id={item.id}
+            doneFunc={taskDone}
           ></Task>
         );
       })}
 
-      <br />
+      <label className="taskCount" htmlFor="">
+        {completedTaskCount + " / " + tasks.length}
+      </label>
       <br />
 
       <input

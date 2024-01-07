@@ -18,3 +18,11 @@
   padding: 10px 18px;
   background-color: aquamarine;
 }
+
+.taskCount {
+  display: block;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}

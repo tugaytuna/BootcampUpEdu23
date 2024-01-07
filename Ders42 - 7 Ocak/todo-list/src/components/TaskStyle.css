@@ -1,0 +1,17 @@
+.taskMain {
+  background-color: aquamarine;
+  margin: 5px 20px 10px 20px;
+  text-align: left;
+}
+
+.taskCheckbox1 {
+  height: 40px;
+  width: 40px;
+
+  margin: 5px 15px 5px 30%;
+}
+
+.taskLabel1 {
+  font-size: 32px;
+  vertical-align: top;
+}

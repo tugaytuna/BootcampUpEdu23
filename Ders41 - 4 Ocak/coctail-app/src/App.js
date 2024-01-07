@@ -16,7 +16,7 @@ function App() {
 
   function getAllCoctails() {
     axios.get(API_SearchbyName + inputSearch).then((response) => {
-      console.log(response.data.drinks);
+      // console.log(response.data.drinks);
       setAllCoctails(response.data.drinks);
     });
   }
@@ -50,6 +50,7 @@ function App() {
       >
         Alcoholic
       </button>
+
       <button
         className={alcoholic ? "alcoButton" : "alcoButton checked"}
         onClick={() => {
